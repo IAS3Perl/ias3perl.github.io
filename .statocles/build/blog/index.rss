@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>IAS3Perl</title>
+        <link>http://ias3perl.github.io/blog/</link>
+        <atom:link href="http://ias3perl.github.io/blog/index.rss" rel="self" type="application/rss+xml" />
+        <description>Blog feed of IAS3Perl</description>
+        <generator>Statocles 0.052</generator>
+        <item>
+            <title>IAS3Perl .::. We&#39;ve Started</title>
+            <link>http://ias3perl.github.io/blog/2015/07/16/new-post/</link>
+            <guid>http://ias3perl.github.io/blog/2015/07/16/new-post/</guid>
+            <description><![CDATA[
+                <p>The team formed at YAPC::NA 2015 started on the design document for IAS3Perl and will soon start coding based on our discussions on the mailing list. </p>
+
+<p>If you&#39;d like to join the group or the discussion please stop by IRC or post to the list. </p>
+
+                    <p><a href="http://ias3perl.github.io/blog/2015/07/16/new-post/#section-2">Continue reading...</a></p>
+                <p>Tags:
+                </p>
+            ]]></description>
+            <pubDate>
+                Thu, 16 Jul 2015 00:00:00 +0000
+            </pubDate>
+        </item>
+    </channel>
+</rss>
+
