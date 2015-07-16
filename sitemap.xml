@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://ias3perl.github.io/blog/2015/07/16/new-post/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2015-07-16</lastmod>
+    </url>
+    <url>
+        <loc>http://ias3perl.github.io/blog/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.3</priority>
+        <lastmod>2015-07-16</lastmod>
+    </url>
+    <url>
+        <loc>http://ias3perl.github.io/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.5</priority>
+        <lastmod>2015-07-16</lastmod>
+    </url>
+</urlset>
+
+
