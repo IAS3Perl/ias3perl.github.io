@@ -34,10 +34,17 @@ statocles build
 git add page/usecases/index.markdown
 git commit -m "Add use cases index."
 vi index.html [ add page to index ]
+git add index.html
+git commit -m "Adjust home page."
+```
+
+### Rebuild the site (generate HTML)
+Statocles generates markup for you based on the markdown files you create. As a consequence of this approach you need to regenerate the markup with a build process. All of the changes can be previewed using your favorite editor and looking at the resulting "staged" items located under the hidden directory .statocles located in the project directory. 
+```
 statocles build
    view .statocles/build/page/usecases/index.html [ review the changes before publishing ]
-statocles deploy
 ```
+  
 
 ### Preview your changes locally
 ```
