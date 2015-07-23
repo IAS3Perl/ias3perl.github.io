@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="/theme/css/normalize.css" rel="stylesheet">
+        <link href="/theme/css/skeleton.css" rel="stylesheet">
+        <link href="/theme/css/statocles-default.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+        <title>IAS3Perl</title>
+        
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="container">
+                    <a class="brand" href="/">IAS3Perl</a>
+                    <ul>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+            
+        </header>
+        <div class="main container">
+            <h1>IAS3 Perl Use Cases</h1>
+
+<p>Probably will be of use for implementations in other languages.</p>
+
+<p>In no particular order (yet) and requiring details:</p>
+
+<ul>
+<li>Create Item</li>
+<li>Add file to Item</li>
+<li>Update metadata for Item</li>
+<li>Update metadata for Item using _ (underscore) in metadata field name.</li>
+<li>Setting metadata for Item using files</li>
+<li>Updating metadata for Item using files</li>
+<li>Add file to Item and update metadata
+<ul>
+<li><code>x-archive-ignore-preexisting-bucket</code> set to <code>1</code></li>
+</ul></li>
+<li>Update a file on Item</li>
+<li>Update a file on Item but keep the prior version
+<ul>
+<li><code>x-archive-keep-old-version</code> set to <code>1</code></li>
+</ul></li>
+<li>Add or Update a file on an Item but disable derives
+<ul>
+<li><code>x-archive-queue-derive</code> set to <code>0</code></li>
+</ul></li>
+<li>Delete file from Item</li>
+<li>Delete a file and all its derivatives from Item
+<ul>
+<li><code>x-archive-cascade-delete</code> set to <code>1</code></li>
+</ul></li>
+<li>Create Item while uploading one or more files
+<ul>
+<li>PUT <code>x-amz-auto-make-bucket</code> with a value of <code>1</code></li>
+</ul></li>
+<li>Authenticating on IAS3</li>
+<li>Authorizing on IAS3 (see &#39;Authenticating on IAS3&#39;; just acknowledging they&#39;re different A&#39;s)</li>
+<li>Downloading all files in an Item</li>
+<li>Downloading a single file in an Item</li>
+<li>Downloading all files in a Collection</li>
+</ul>
+
+<p>The following use cases are based on <a href="https://github.com/jjjake/internetarchive">jjjake/internetarchive</a>
+* Data mining Items
+* Searching Internet Archive Items</p>
+
+
+        </div>
+        <footer>
+            
+            <div class="container tagline">
+                <a href="http://preaction.github.io/Statocles">Made with Statocles</a><br>
+                <a href="http://www.perl.org">Powered by Perl</a>
+            </div>
+        </footer>
+    </body>
+</html>
