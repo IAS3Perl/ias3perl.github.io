@@ -1,5 +1,10 @@
-IAS3 Perl Use Cases
-====
+---
+title: IAS3 Perl Use Cases
+author: Victoria M Brasseur
+---
+
+# IAS3 Perl Use Cases
+
 Probably will be of use for implementations in other languages.
 
 In no particular order (yet) and requiring details:

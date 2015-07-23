@@ -33,6 +33,7 @@ vim page/usecases/index.markdown
 statocles build
 git add page/usecases/index.markdown
 git commit -m "Add use cases index."
+vi index.html [ add page to index ]
 statocles build
    view .statocles/build/page/usecases/index.html [ review the changes before publishing ]
 statocles deploy
