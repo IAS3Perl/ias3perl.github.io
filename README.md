@@ -1,8 +1,3 @@
-----
-title: Directions on creating site.
-author: Adam M Dutko
-----
-
 # ABOUT
 
 This site is managed through [Statocles](https://metacpan.org/pod/Statocles). Direct editing of components of the site outside of this README are not encouraged. Information on Github markdown can be found an the [Github Flavored Markdown Page](https://help.github.com/articles/github-flavored-markdown/).
