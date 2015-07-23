@@ -26,7 +26,16 @@ statocles blog post
 ```
 
 ### Add a new page
+There are several approaches to adding content but for now we'll use the [plain page approach]().
 ```
+mkdir page/usecases
+vim page/usecases/index.markdown
+statocles build
+git add page/usecases/index.markdown
+git commit -m "Add use cases index."
+statocles build
+   view .statocles/build/page/usecases/index.html [ review the changes before publishing ]
+statocles deploy
 ```
 
 ### Preview your changes locally
