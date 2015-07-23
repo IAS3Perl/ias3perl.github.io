@@ -9,7 +9,7 @@ This site is hosted on GitHub at [https://github.com/ias3perl/ias3perl.github.io
 
 ## Use Cases
 
-We've started developing and documenting various use cases for this project on the [use cases](/usecases/) page.
+We've started developing and documenting various use cases for this project on the [use cases](/page/usecases/) page.
 
 # Communication 
 
