@@ -6,6 +6,11 @@ This site is managed through [Statocles](https://metacpan.org/pod/Statocles). Di
 
 These are basic steps for performing particular tasks with Statocles. If you wish to know more then consult the Statocles documentation pages or run: ```statocles -h```
 
+### Install statocles using cpanm
+```
+cpanm statocles
+```
+
 ### Create the site
 
 ```
@@ -22,4 +27,14 @@ statocles blog post
 
 ### Add a new page
 ```
+```
+
+### Preview your changes locally
+```
+statocles daemon
+```
+
+### Deploy new site
+```
+statocles deploy
 ```
